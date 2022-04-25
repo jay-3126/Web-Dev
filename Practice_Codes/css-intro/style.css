@@ -1,0 +1,71 @@
+body{
+    background-color: bisque;
+}
+
+.formatting{
+    background-color: lightblue;
+}
+.align{
+    background-color: lightcyan;
+}
+.decoration{
+    background-color: lightgreen;
+}
+.transform{
+    background-color: lightcoral;
+}
+
+.font-fam{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font-var{
+    font-variant: small-caps;
+}
+.font-weight{
+    font-weight: bolder;
+}
+.font-size{
+    font-size: 30px;
+}
+
+.t-color{
+    color: red;
+}
+.direction{
+    direction: rtl;
+}
+.letter-spacing{
+    letter-spacing: 8px;
+}
+.word-spacing{
+    word-spacing: 8px;
+}
+.text-indent{
+    text-indent: 5in;
+}
+
+.same-color{
+    border: 2px solid;
+}
+.diff-color{
+    border: 2px;
+    border-style: solid;
+    border-left-color: brown;
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: yellow;
+}
+
+.solid-border{
+    border: 5px solid red;
+}
+.dashed-border{
+    border: 5px dashed red;
+}
+.dotted-border{
+    border: 5px dotted red;
+}
+.multi-style-border{
+    border-left-style: 10px solid black;
+    border-top-style: 10px dashed yellow; 
+}

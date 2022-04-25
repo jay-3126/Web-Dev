@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <style>
+            body{
+                background-color: whitesmoke;
+            }
+            div{
+                text-align: center;
+                margin: 120px 120px 120px 120px;
+                background-color: azure;
+                border: 2px;
+                border-style: solid;
+                border-color: rgb(4, 167, 243);
+                border-radius: 20px;
+            }
+            div form{
+                margin: 20px;
+            }
+            form input{
+                background-color: whitesmoke;
+                border-radius: 3px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <h1>Talk to our expert</h1>
+            <form name="callBackForm" action="/action_page.php" target="_blank" method="get" autocomplete="off" >
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" required>
+                <br><br>
+                <label for="mob">Mobile Number</label>
+                <input type="tel" id="mob" pattern="[6-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" size="10" required>
+                <br><br>
+                <label for="city">City</label>
+                <input type="text" id="city" required>
+                <br><br>
+                <label for="course" id="course">Course you are interesed in<label>
+                <select name="course" id="course" required>
+                    <option value="Select a course">Select a course</option>
+                    <option value="jee">JEE</option>
+                    <option value="neet">NEET</option>
+                    <option value="cat">CAT</option>
+                    <option value="boards">Boards Exam</option>
+                </select>
+                <br><br>
+                <!-- <label for="query">Query</label><br>
+                <textarea id="query" name="query" rows="8" cols="30"></textarea>
+                <br><br> -->
+                <input type="button" value="Request a call back">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        
+    </body>
+</html>
